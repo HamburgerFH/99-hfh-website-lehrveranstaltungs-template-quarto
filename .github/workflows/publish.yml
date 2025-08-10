@@ -23,23 +23,8 @@ jobs:
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
           extra-packages: |
-            any::knitr
-            any::rmarkdown
-            any::nnet
             any::magrittr
-            any::rcompanion
-            any::MASS
-            any::ordinal
-            any::DescTools
-            any::tidyverse
-            any::ggplot2
-            any::dplyr
-            any::PerformanceAnalytics
-            any::rugarch
-            any::tsibbledata
-            any::mFilter
-            any::FinTS
-            any::plm
+      # list further packages !
 
       # Publish to GitHub Pages
       - uses: quarto-dev/quarto-actions/publish@v2
