@@ -1,0 +1,132 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Grundlagen der Datenanalyse (GDA)",
+    "section": "",
+    "text": "Welcome! Hier findest du Skripte, Beispiele und R‑Code für den Kurs. Starte mit einem der Bereiche oder nutze die Suche links.\n\n Kurzeinführung R und Python   Multiple Lineare Regression   Binär logistische Regression   Altklausuren \n\n\nAktuelles\n\n\n\n\n\n\nNote\n\n\n\nHinweise: Klausurtermin 01:\n\n\n\n\n\n\n\n\nNote\n\n\n\nHinweise: Klausurtermin 02:\n\n\n\n\n\n\n\n\nNote\n\n\n\nHinweise: Folien und Notebooks werden laufend ergänzt. Bei Fragen oder Fehlern bitte im GitHub-Menü (links oben) melden.\n\n\n\n\n\nIlya Zarubin (M.Sc.)\nE‑mail: ilya.zarub@campus.hamburger-fh.de\n\nKontakt Über\n\n\n\n\n\n\n Back to top",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "include/99_altklausuren.html",
+    "href": "include/99_altklausuren.html",
+    "title": "HFH Veranstaltungswebsite Template",
+    "section": "",
+    "text": "Nachfolgend finden Sie die Aufgabenstellung und die dazugehörige Musterlösung.\n\n\n\n\n\n\nFigure 1: Aufgabenstellung der Klausur vom 28.09.2024\n\n\n\n\n\n\n\n\n\nFigure 2: Lösung zur Klausur vom 28.09.2024",
+    "crumbs": [
+      "Altklausuren",
+      "Aufgabentyp 1"
+    ]
+  },
+  {
+    "objectID": "include/99_altklausuren.html#klausuraufgaben-zu-sb-01",
+    "href": "include/99_altklausuren.html#klausuraufgaben-zu-sb-01",
+    "title": "HFH Veranstaltungswebsite Template",
+    "section": "",
+    "text": "Nachfolgend finden Sie die Aufgabenstellung und die dazugehörige Musterlösung.\n\n\n\n\n\n\nFigure 1: Aufgabenstellung der Klausur vom 28.09.2024\n\n\n\n\n\n\n\n\n\nFigure 2: Lösung zur Klausur vom 28.09.2024",
+    "crumbs": [
+      "Altklausuren",
+      "Aufgabentyp 1"
+    ]
+  },
+  {
+    "objectID": "include/02_03_BLR.html",
+    "href": "include/02_03_BLR.html",
+    "title": "Binär logistische Regression",
+    "section": "",
+    "text": "Idee:\n\nAbhängigkeit einer dichotomen Variablen von unabhängigen Variablen / Regressoren\nbinär/dichotom: ja/nein, trifft zu/ trifft nicht zu, männlich/weiblich, Raucher/nicht Raucher\n\nDummy-Variable:\n\nEbenfalls 0/1 codiert mit Bedeutung z.B. ja/nein\nwird allgemein verwendet für unabhängige und abhängige Variablen\n\nBeispiel: Studie zur Verkehrsmittelwahl\n\nPendlerfahrten: Arbeitsplatz \\(\\ra\\) zu Hause\n\\(\\ra\\) Privatauto vs. öffentlicher Nahverkehr (ÖV)\nDatensatz verkersmittel.csv mit den Variablen\nmode: Verkehrsmittel ($0 = $ Privatauto vs. $ 1 = $ ÖV)\nzeit: Fahrzeitdifferenz zwischen ÖV und Auto\nkosten: Kostendifferenz zwischen ÖV und Auto\ngeschlecht: 1 = weiblich \\(\\ra\\) 2 = männlich\numsteigen: Zahl notwendiger Umstiege bei Nutzung der ÖV\n\nFragestellung: Von welchen Faktoren hängt die Wahl des Verkehrsmittels ab?",
+    "crumbs": [
+      "Studienbrief 2",
+      "Binär logistische Regression"
+    ]
+  },
+  {
+    "objectID": "include/02_03_BLR.html#idee-und-einführung",
+    "href": "include/02_03_BLR.html#idee-und-einführung",
+    "title": "Binär logistische Regression",
+    "section": "",
+    "text": "Idee:\n\nAbhängigkeit einer dichotomen Variablen von unabhängigen Variablen / Regressoren\nbinär/dichotom: ja/nein, trifft zu/ trifft nicht zu, männlich/weiblich, Raucher/nicht Raucher\n\nDummy-Variable:\n\nEbenfalls 0/1 codiert mit Bedeutung z.B. ja/nein\nwird allgemein verwendet für unabhängige und abhängige Variablen\n\nBeispiel: Studie zur Verkehrsmittelwahl\n\nPendlerfahrten: Arbeitsplatz \\(\\ra\\) zu Hause\n\\(\\ra\\) Privatauto vs. öffentlicher Nahverkehr (ÖV)\nDatensatz verkersmittel.csv mit den Variablen\nmode: Verkehrsmittel ($0 = $ Privatauto vs. $ 1 = $ ÖV)\nzeit: Fahrzeitdifferenz zwischen ÖV und Auto\nkosten: Kostendifferenz zwischen ÖV und Auto\ngeschlecht: 1 = weiblich \\(\\ra\\) 2 = männlich\numsteigen: Zahl notwendiger Umstiege bei Nutzung der ÖV\n\nFragestellung: Von welchen Faktoren hängt die Wahl des Verkehrsmittels ab?",
+    "crumbs": [
+      "Studienbrief 2",
+      "Binär logistische Regression"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n\n\n Back to top",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "include/01_programmierung.html",
+    "href": "include/01_programmierung.html",
+    "title": "Vorbereitung - Programmiertools",
+    "section": "",
+    "text": "Auswahl folgender Pakete sollte für die Bearbeitung der Aufgaben und das Nachimplementieren der Anwendungen aus den Studienbriefen ausreichend sein:\n#| cache: true\ninstall.packages(\n  c(\"rcompanion\", \"polr\", \"ordinal\", \"DescTools\", \"tidyverse\", \"ggplot2\", \"dplyr\",\n    \"PerformanceAnalytics\", \"rugarch\", \"tsibbledata\", \"mFilter\", \"FinTS\",\n    \"plm\")\n)\nRest der Veranstaltung: R-code – daher eine kleine Wiederholung zu Python weiter unten.\n\n########################### Allgemeine Grundlagen #####\ntest      &lt;- 5             # Kommentarbereich\ntestplus  &lt;- test + 5      # Addition\ntestminus &lt;- testplus - 3  # Subtraktion\ntestdiv   &lt;- testminus / 7 # Division\ntestmult  &lt;- testdiv * 4   # Multiplikation\n\nv &lt;- c(1, 2, 10, 5, 6, 7) # Vektor\nv[3]\nv[1:4]\nv[v &lt; 3]\nl &lt;- list(v = c(1,2), f = c(\"a\", \"b\"))\nl$v\nl[1:2]\nl[[2]]\nl[\"v\"]\n\n\nmymatrix &lt;- matrix(data = c(1,2,3,4,5,6), nrow = 2, ncol = 3)\nmymatrix[1,2]\nmymatrix[, 3]\nmymatrix[2, ]\n\nmydf &lt;- data.frame(name1 = c(1,2),name2 = c(3,4), name3 = c(5,6))\nmydf[1,2]\nmydf$name3[1]\nmydf[,3]\nmydf$name1\nmydf[2, ]\n\n########################### Pakete installieren #####\n#install.packages(\"tidyverse\")\nlibrary(tidyverse)\n########################### Daten einlesen #####\nmydata &lt;- readxl::read_xls(\"bsp_file.xlsx\")\nmydata &lt;- read.csv(\"bsp_file.csv\")\nmydata &lt;- foreign::read.dta(\"bsp_file.dta\")\ntestme &lt;- load(\"bsp_file.rda\")\n\n########################### Conditional Code #####\nfor (i in c(1, 3, 5)) {\n  print(i)\n}\nwhile (i &lt;= 4) {\nprint(\"i is still smaller or equal to 4\")\n}\n\n\nif (i &lt;= 4) {\n  print(i)\n} else {\n  print(\"i is not smaller 4\")\n}\n\n# Logische Operationen\na &lt;- 3\nb &lt;- 4\n\na == b\na != b\na &gt; b\na &gt;= b\na &lt;- NA\nb &lt;- \"text ist hier\"\nis.na(a)\n!is.na(b)\n\n########################### Funktionen definieren #####\nbsp_funktion &lt;- function(x, y) {\n muffin &lt;- c(x + y, x * y, x - y)\n return(muffin)\n}\n\n\n########################### Datenmanipulation #####\nhead(mtcars)\nlibrary(magrittr) # fuer den Pipe-operator\nmtcars %&gt;%\n  dplyr::select(mpg, hp)\n\nlibrary(dplyr)\nmtcars %&gt;%\n  select(mpg, hp)\n\nmtcars %&gt;% head() %&gt;% filter(cyl %in% 4:6)\n#\n\n\n\n########################### ggplot 2 Intro #####\nlibrary(ggplot2)\nggplot(data = iris,\naes(x = Petal.Length,\ny = Sepal.Length)) +\ngeom_point()\n\nggplot(data = iris,\naes(x = Petal.Length,\ny = Sepal.Length,\ncolor = Species)) +\ngeom_point()\n\nggplot(data = iris,\naes(x = Petal.Length,\ny = Sepal.Length,\nshape = Species)) +\ngeom_point()\n\nggplot(data = iris,\naes(x = Petal.Length,\ny = Sepal.Length,\ncolor = Species,\nshape = Species)) +\ngeom_point()\n\nggplot(data = wb_data[which(\nwb_data$`Country Name` == 'Haiti'), ],\naes(x = variable, y = value)) +\ngeom_line() +\nylim(25, 50) +\nxlim(1995, 2020)\n\nggplot(data = wb_data[which(\nwb_data$`Country Name` == 'Haiti' |\nwb_data$`Country Name` == 'India'), ],\naes(x = variable,\ny = value,\ncolor = `Country Name`)) +\ngeom_line() +\nylim(25, 100) +\nxlim(1995, 2020) +\ntheme(legend.position = 'bottom')\n\nggplot(data = wb_data,\naes(x = `Country Name`)) +\ngeom_bar(stat = 'count') +\ncoord_flip()\n\nggplot(data = wb_mean,\naes(x = Mean, y = Country)) +\ngeom_bar(stat = 'identity') +\ngeom_errorbar(aes(xmin = Mean - SD,\nxmax = Mean + SD), width = 0.6,\nalpha = 0.9, size = 1,\ncolor ='red', stat = \"identity\")\n\n\nggplot(data = wb_mean,\naes(x = Mean,\ny = reorder(Country, -Mean))) +\ngeom_bar(stat = 'identity') +\ngeom_errorbar(aes(xmin = Mean - SD,\nxmax = Mean + SD), width = 0.6,\nalpha = 0.9, size = 1,\ncolor='red', stat = \"identity\")\n\n\nggplot(data = iris, aes(\nx = Petal.Length,\ny = Sepal.Length)) +\ngeom_point() +\nfacet_wrap(vars(Species))\n\nggplot(data = iris, aes(\nx = Petal.Length,\ny = Sepal.Length)) +\ngeom_point() +\nfacet_wrap(vars(Species),\nnrow = 3)\n\n\n\n# install.packages(\"ggpubr\")\nlibrary(ggpubr)\n\nscatter_1 &lt;- ggplot(data = iris, aes(x = Petal.Length,\ny = Sepal.Length)) +\ngeom_point()\n\nline_2 &lt;- ggplot(data = wb_data[which(\nwb_data$`Country Name` == 'Haiti' |\nwb_data$`Country Name` == 'India'), ],\naes(x = variable,\ny = value,\ncolor = `Country Name`)) +\ngeom_line() +\nylim(25, 100) +\nxlim(1995, 2020) +\ntheme(legend.position = 'bottom')\n\n\nggarrange(scatter_1, line_2,\nlabels = c('Erster Scatterplot',\n'Zweites Liniendiagram'),\nlegend = 'bottom')",
+    "crumbs": [
+      "Studienbrief 1",
+      "Prommiergrundlagen `R` und Python"
+    ]
+  },
+  {
+    "objectID": "include/01_programmierung.html#r",
+    "href": "include/01_programmierung.html#r",
+    "title": "Vorbereitung - Programmiertools",
+    "section": "",
+    "text": "Auswahl folgender Pakete sollte für die Bearbeitung der Aufgaben und das Nachimplementieren der Anwendungen aus den Studienbriefen ausreichend sein:\n#| cache: true\ninstall.packages(\n  c(\"rcompanion\", \"polr\", \"ordinal\", \"DescTools\", \"tidyverse\", \"ggplot2\", \"dplyr\",\n    \"PerformanceAnalytics\", \"rugarch\", \"tsibbledata\", \"mFilter\", \"FinTS\",\n    \"plm\")\n)\nRest der Veranstaltung: R-code – daher eine kleine Wiederholung zu Python weiter unten.\n\n########################### Allgemeine Grundlagen #####\ntest      &lt;- 5             # Kommentarbereich\ntestplus  &lt;- test + 5      # Addition\ntestminus &lt;- testplus - 3  # Subtraktion\ntestdiv   &lt;- testminus / 7 # Division\ntestmult  &lt;- testdiv * 4   # Multiplikation\n\nv &lt;- c(1, 2, 10, 5, 6, 7) # Vektor\nv[3]\nv[1:4]\nv[v &lt; 3]\nl &lt;- list(v = c(1,2), f = c(\"a\", \"b\"))\nl$v\nl[1:2]\nl[[2]]\nl[\"v\"]\n\n\nmymatrix &lt;- matrix(data = c(1,2,3,4,5,6), nrow = 2, ncol = 3)\nmymatrix[1,2]\nmymatrix[, 3]\nmymatrix[2, ]\n\nmydf &lt;- data.frame(name1 = c(1,2),name2 = c(3,4), name3 = c(5,6))\nmydf[1,2]\nmydf$name3[1]\nmydf[,3]\nmydf$name1\nmydf[2, ]\n\n########################### Pakete installieren #####\n#install.packages(\"tidyverse\")\nlibrary(tidyverse)\n########################### Daten einlesen #####\nmydata &lt;- readxl::read_xls(\"bsp_file.xlsx\")\nmydata &lt;- read.csv(\"bsp_file.csv\")\nmydata &lt;- foreign::read.dta(\"bsp_file.dta\")\ntestme &lt;- load(\"bsp_file.rda\")\n\n########################### Conditional Code #####\nfor (i in c(1, 3, 5)) {\n  print(i)\n}\nwhile (i &lt;= 4) {\nprint(\"i is still smaller or equal to 4\")\n}\n\n\nif (i &lt;= 4) {\n  print(i)\n} else {\n  print(\"i is not smaller 4\")\n}\n\n# Logische Operationen\na &lt;- 3\nb &lt;- 4\n\na == b\na != b\na &gt; b\na &gt;= b\na &lt;- NA\nb &lt;- \"text ist hier\"\nis.na(a)\n!is.na(b)\n\n########################### Funktionen definieren #####\nbsp_funktion &lt;- function(x, y) {\n muffin &lt;- c(x + y, x * y, x - y)\n return(muffin)\n}\n\n\n########################### Datenmanipulation #####\nhead(mtcars)\nlibrary(magrittr) # fuer den Pipe-operator\nmtcars %&gt;%\n  dplyr::select(mpg, hp)\n\nlibrary(dplyr)\nmtcars %&gt;%\n  select(mpg, hp)\n\nmtcars %&gt;% head() %&gt;% filter(cyl %in% 4:6)\n#\n\n\n\n########################### ggplot 2 Intro #####\nlibrary(ggplot2)\nggplot(data = iris,\naes(x = Petal.Length,\ny = Sepal.Length)) +\ngeom_point()\n\nggplot(data = iris,\naes(x = Petal.Length,\ny = Sepal.Length,\ncolor = Species)) +\ngeom_point()\n\nggplot(data = iris,\naes(x = Petal.Length,\ny = Sepal.Length,\nshape = Species)) +\ngeom_point()\n\nggplot(data = iris,\naes(x = Petal.Length,\ny = Sepal.Length,\ncolor = Species,\nshape = Species)) +\ngeom_point()\n\nggplot(data = wb_data[which(\nwb_data$`Country Name` == 'Haiti'), ],\naes(x = variable, y = value)) +\ngeom_line() +\nylim(25, 50) +\nxlim(1995, 2020)\n\nggplot(data = wb_data[which(\nwb_data$`Country Name` == 'Haiti' |\nwb_data$`Country Name` == 'India'), ],\naes(x = variable,\ny = value,\ncolor = `Country Name`)) +\ngeom_line() +\nylim(25, 100) +\nxlim(1995, 2020) +\ntheme(legend.position = 'bottom')\n\nggplot(data = wb_data,\naes(x = `Country Name`)) +\ngeom_bar(stat = 'count') +\ncoord_flip()\n\nggplot(data = wb_mean,\naes(x = Mean, y = Country)) +\ngeom_bar(stat = 'identity') +\ngeom_errorbar(aes(xmin = Mean - SD,\nxmax = Mean + SD), width = 0.6,\nalpha = 0.9, size = 1,\ncolor ='red', stat = \"identity\")\n\n\nggplot(data = wb_mean,\naes(x = Mean,\ny = reorder(Country, -Mean))) +\ngeom_bar(stat = 'identity') +\ngeom_errorbar(aes(xmin = Mean - SD,\nxmax = Mean + SD), width = 0.6,\nalpha = 0.9, size = 1,\ncolor='red', stat = \"identity\")\n\n\nggplot(data = iris, aes(\nx = Petal.Length,\ny = Sepal.Length)) +\ngeom_point() +\nfacet_wrap(vars(Species))\n\nggplot(data = iris, aes(\nx = Petal.Length,\ny = Sepal.Length)) +\ngeom_point() +\nfacet_wrap(vars(Species),\nnrow = 3)\n\n\n\n# install.packages(\"ggpubr\")\nlibrary(ggpubr)\n\nscatter_1 &lt;- ggplot(data = iris, aes(x = Petal.Length,\ny = Sepal.Length)) +\ngeom_point()\n\nline_2 &lt;- ggplot(data = wb_data[which(\nwb_data$`Country Name` == 'Haiti' |\nwb_data$`Country Name` == 'India'), ],\naes(x = variable,\ny = value,\ncolor = `Country Name`)) +\ngeom_line() +\nylim(25, 100) +\nxlim(1995, 2020) +\ntheme(legend.position = 'bottom')\n\n\nggarrange(scatter_1, line_2,\nlabels = c('Erster Scatterplot',\n'Zweites Liniendiagram'),\nlegend = 'bottom')",
+    "crumbs": [
+      "Studienbrief 1",
+      "Prommiergrundlagen `R` und Python"
+    ]
+  },
+  {
+    "objectID": "include/01_programmierung.html#python",
+    "href": "include/01_programmierung.html#python",
+    "title": "Vorbereitung - Programmiertools",
+    "section": "Python",
+    "text": "Python\n\nfor und while Schleifen\nfor i in range(1,5):\n  print(i)\n  while i &lt;= 4:\n    print(\"i is still smaller or equal to 4\")\n  if i &lt;= 4:\n    print(i)\n  else:\n    print(\"i is greater than 4\")\n\n\n\n\nBoolsche Operationen mit Python.",
+    "crumbs": [
+      "Studienbrief 1",
+      "Prommiergrundlagen `R` und Python"
+    ]
+  },
+  {
+    "objectID": "include/02_02_MLR.html",
+    "href": "include/02_02_MLR.html",
+    "title": "Multiple lineare Regression: Überblick",
+    "section": "",
+    "text": "Daten: gebrauchtwagen.csv aus Eurotax-Liste (Kauf/Verkauf von Gebrauchtwagen in Europa)\n\nPreis: Verkaufspreis (in Euro)\n\nKilometer: Kilometerstand (in km)\n\nService: Anzahl der Serviceintervalle (metrisch = reelle Zahlen)\n\nGarage: Garagennutzung (nominal, dichotom: ja/nein = 0/1 Codierung)\n\nFarbe: Farbe 1–3 (nominal)\nBesteht ein Zusammenhang zwischen Kilometerstand und Preis?\n\nAnalyse im Rahmen einer Regressionsanalyse — nicht Korrelationsstudie\n\nStreudiagramm / Scatterplot:\n\n\n\n\n\n\n\nFigure 1: Abbildung\n\n\n\n\n\n\n\nabhängige Variable \\(Y\\)\n\nErweiterung: mehrere (multiple) unabhängige Variablen / Kovariate\n\nunabhängigen Variable(n) = Regressore(n) = Kontrollvariable(n) = Kovariate = Prädiktoren\n\ndieselben Bezeichnungen für \\(X\\) auf der rechten Seite!\n\nstochastischer Störterm / Fehlerterm \\(\\varepsilon\\): zufälliger Fehler führt zu Abweichungen in der linearen Beziehung zwischen \\(Y\\) und \\(X\\)\n\\(Y = \\alpha + \\beta_1 \\cdot X_1 + \\ldots + \\beta_k \\cdot X_k + \\varepsilon_i\\)\n\\(Preis = \\alpha + \\beta_{1} \\cdot Kilometer + \\beta_{2} \\cdot Service + \\beta_{3} \\cdot Garage + \\varepsilon_i\\)\nErklärung der Variablenbezeichnung:\n\n\\(Y\\): abhängige Variable (Preis), auch Responsevariable genannt\n\n\\(1, X_1, \\ldots, X_k\\): Achsenabschnitt & unabhängige Variable(n) / Kovariate\n\n\\(\\alpha, \\beta_1, \\ldots, \\beta_k\\): Regressionskoeffizienten\n\nBestimmtheitsmaß \\(R^2=\\frac{TTS-RSS}{TTS}\\)\n\\(\\hookrightarrow\\) Gesamtquadratensumme (Total Sum of Squares = TTS)\n\\(\\hookrightarrow\\) Residuenquadratensumme (Residual Sum of Squares = RSS)\n\\(\\hookrightarrow\\) Anteil der durch die Regression erklärten Varianz an der Gesamtvarianz der abhängigen Variable \\(Y\\)",
+    "crumbs": [
+      "Studienbrief 2",
+      "Multiple Lineare Regression"
+    ]
+  },
+  {
+    "objectID": "include/02_02_MLR.html#einleitung",
+    "href": "include/02_02_MLR.html#einleitung",
+    "title": "Multiple lineare Regression: Überblick",
+    "section": "",
+    "text": "Daten: gebrauchtwagen.csv aus Eurotax-Liste (Kauf/Verkauf von Gebrauchtwagen in Europa)\n\nPreis: Verkaufspreis (in Euro)\n\nKilometer: Kilometerstand (in km)\n\nService: Anzahl der Serviceintervalle (metrisch = reelle Zahlen)\n\nGarage: Garagennutzung (nominal, dichotom: ja/nein = 0/1 Codierung)\n\nFarbe: Farbe 1–3 (nominal)\nBesteht ein Zusammenhang zwischen Kilometerstand und Preis?\n\nAnalyse im Rahmen einer Regressionsanalyse — nicht Korrelationsstudie\n\nStreudiagramm / Scatterplot:\n\n\n\n\n\n\n\nFigure 1: Abbildung\n\n\n\n\n\n\n\nabhängige Variable \\(Y\\)\n\nErweiterung: mehrere (multiple) unabhängige Variablen / Kovariate\n\nunabhängigen Variable(n) = Regressore(n) = Kontrollvariable(n) = Kovariate = Prädiktoren\n\ndieselben Bezeichnungen für \\(X\\) auf der rechten Seite!\n\nstochastischer Störterm / Fehlerterm \\(\\varepsilon\\): zufälliger Fehler führt zu Abweichungen in der linearen Beziehung zwischen \\(Y\\) und \\(X\\)\n\\(Y = \\alpha + \\beta_1 \\cdot X_1 + \\ldots + \\beta_k \\cdot X_k + \\varepsilon_i\\)\n\\(Preis = \\alpha + \\beta_{1} \\cdot Kilometer + \\beta_{2} \\cdot Service + \\beta_{3} \\cdot Garage + \\varepsilon_i\\)\nErklärung der Variablenbezeichnung:\n\n\\(Y\\): abhängige Variable (Preis), auch Responsevariable genannt\n\n\\(1, X_1, \\ldots, X_k\\): Achsenabschnitt & unabhängige Variable(n) / Kovariate\n\n\\(\\alpha, \\beta_1, \\ldots, \\beta_k\\): Regressionskoeffizienten\n\nBestimmtheitsmaß \\(R^2=\\frac{TTS-RSS}{TTS}\\)\n\\(\\hookrightarrow\\) Gesamtquadratensumme (Total Sum of Squares = TTS)\n\\(\\hookrightarrow\\) Residuenquadratensumme (Residual Sum of Squares = RSS)\n\\(\\hookrightarrow\\) Anteil der durch die Regression erklärten Varianz an der Gesamtvarianz der abhängigen Variable \\(Y\\)",
+    "crumbs": [
+      "Studienbrief 2",
+      "Multiple Lineare Regression"
+    ]
+  },
+  {
+    "objectID": "include/02_02_MLR.html#multiple-lineare-regression-beispiel",
+    "href": "include/02_02_MLR.html#multiple-lineare-regression-beispiel",
+    "title": "Multiple lineare Regression: Überblick",
+    "section": "Multiple lineare Regression: Beispiel",
+    "text": "Multiple lineare Regression: Beispiel\nSyntax: \\(\\hookrightarrow\\) Ergänze mit + die weiteren Regressoren\n\ndata_gw &lt;- read.csv(\"../data/gebrauchtwagen.csv\")\nmodel &lt;- lm(Preis ~ Kilometer + Service + Garage, data = data_gw)\nsummary(model)\n\n\nCall:\nlm(formula = Preis ~ Kilometer + Service + Garage, data = data_gw)\n\nResiduals:\n    Min      1Q  Median      3Q     Max \n-97.343 -30.205  -1.084  26.777  97.323 \n\nCoefficients:\n              Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept)  6.187e+03  2.585e+01 239.379   &lt;2e-16 ***\nKilometer   -3.114e-02  6.359e-04 -48.966   &lt;2e-16 ***\nService      1.345e+02  3.867e+00  34.793   &lt;2e-16 ***\nGarage       1.901e+01  8.461e+00   2.247    0.027 *  \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 40.64 on 96 degrees of freedom\nMultiple R-squared:  0.9754,    Adjusted R-squared:  0.9746 \nF-statistic:  1267 on 3 and 96 DF,  p-value: &lt; 2.2e-16\n\n\nInterpretation:\n\n\\(R^2=0.9754\\): 97.54 % der Varianz (im Preis) wird durch das Modell (Achsenabschnitt und alle 3 Regressoren) erklärt \\(\\hookrightarrow\\) sehr hoher Wert nahe Obergrenze 1 ! \\(R^2 \\in [0,1]\\)\n\nKilometer/Service: \\(p&lt;2e-16\\) \\(\\rightarrow\\) hoch signifikant: Sternchen ***\n\nGarage: \\(p=0.027\\) \\(\\rightarrow\\) signifikant auf Niveau 5 %: Sternchen *\n\nF-Wert:\n\nletzte Zeile des summary outputs: p-Wert p-value: &lt;2.2e-16 der F-Statistik zeigt sehr hohe Signifikanz aller drei gemeinsamen Kovariate auf den Preis\n\n\\(Preis = 6187 - 0.003114 \\cdot Kilometer + 134.5 \\cdot Service + 19.01 \\cdot Garage\\)\n\nSteigt der Kilometerstand um 1 (eine kleine/marginale Einheit), so sinkt der Preis um \\(\\beta\\) Einheiten:\n\nAchsenabschnitt 6187 EUR: Basispreis eines Gebrauchtwagens\n\nPro gefahrenem Kilometer: erwarteter Verkaufspreis sinkt um ca. 3 Cent\n\nPro getätigtem Service: erwarteter Verkaufspreis steigt um ca. 134.5 EUR\n\nGaragennutzung (vs. draußen Parken): Verkaufspreis steigt um 19 EUR",
+    "crumbs": [
+      "Studienbrief 2",
+      "Multiple Lineare Regression"
+    ]
+  }
+]
